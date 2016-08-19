@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: 12px/1.6 tahoma,arial,sans-serif;
+    color: #333;
+}
+
+ul, li,ol, dl {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    border: none;
+}
+
+input {
+    outline: none;
+}
+
+.clearfix:before, .clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+body{
+    min-width: 1200px;
+}
+.login_wrap{
+    width: 900px;
+    margin: 0 auto;
+    padding: 27px 0 33px;
+}
+.logo .logo_img{
+    background: url("../image/login/tital.png") no-repeat;
+    display: inline-block;
+    width: 220px;
+    height: 52px;
+}
+.login_wrap .content{
+    padding-top: 40px;
+    height: 500px;
+}
+.lg_banner{
+    width: 400px;
+    padding: 20px 0 0 40px;
+    float: left;
+    display: inline;
+}
+.lg_banner a{
+    height: 300px;
+    margin-bottom: 10px;
+    display: block;
+    width: 400px;
+}
+
+
+
+
+
+
+.lg_left{
+    width: 322px;
+    float: right;
+    display: inline;
+    border: 1px solid #dcdcdc;
+    padding: 0 0 30px 38px;
+    position: relative;
+}
+.lg_left .toggle_qrcode{
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    height: 46px;
+    width: 46px;
+    //background: url("../image/login/inp1.png") no-repeat;
+}
+.login_mod_tab {
+    height: 70px;
+    margin-left: -38px;
+}
+.login_mod_tab .mod {
+    width: 50%;
+    border-bottom: 1px solid #ccc;
+    float: left;
+}
+.login_mod_tab .mod a{
+    font-weight: 700;
+    height: 43px;
+    color: #aaa;
+    line-height: 42px;
+    display: block;
+    width: 119px;
+    margin: 10px 30px 0;
+    text-align: center;
+    font-size: 14px;
+}
+.login_mod_tab .mod .tab_on{
+    border-bottom: 2px solid #ff4066;
+    color: #333;
+    height: 41px;
+}
+
+.formbox .inp{
+    display: inline-block;
+    position: relative;
+    margin-bottom: 15px;
+}
+.formbox .inp input{
+    width: 269px;
+    border: 1px solid #ccc;
+    height: 28px;
+    padding: 0 6px;
+}
+label{
+    cursor: default;
+}
+.lg_remember span{
+    color: #999;
+    cursor: pointer;
+}
+.lg_remember a{
+    margin-left: 130px;
+    color: #959595;
+}
+.lg_login{
+    padding-top: 10px;
+}
+.lg_login input{
+    display: inline;
+    float: left;border: none;
+    width: 285px;
+    height: 30px;
+    background: #ff4066;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff;
+}
+.lg_reg{
+    padding-top: 20px;
+}
+.lg_reg a{
+    text-decoration: underline;
+    color: #959595;
+}
+.lg_reg .regist{
+    margin-left: 150px;
+}
+.ot_login{
+    margin-top: 30px;
+}
+.ot_login span{
+    color: #999;
+}
+.ot_login .ot_btn {
+    padding-top: 6px;
+}
+.ot_login .ot_btn a img {
+    display: inline;
+}
+
+.qrcode-wrapper {
+    position: relative;
+    height: 380px;
+    width: 100%;
+}
+.toggle-regular {
+    height: 53px;
+    width: 53px;
+    background: url('../image/login/inp2.png') no-repeat;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.scan-login {
+    /*position: absolute;*/
+    margin: 39px 0 0 10px;
+    height: 80px;
+    top: 30px;
+    width: 200px;
+    background: url('../image/login/inp3png.png') no-repeat;
+}
+.qrcodeimg {
+    margin: -7px 0 52px 47px;
+    height: 200px;
+    font-size: 14px;
+    line-height: 200px;
+    //margin-left: -122px;
+    //top: 100px;
+    //position: absolute;
+    width: 200px;
+    //left: 50%;
+}
+.click-download {
+
+    //position: absolute;
+    width: 200px;
+    //left: 50%;
+    font-size: 18px;
+    text-decoration: underline;
+    height: 30px;
+    bottom: 0;
+    font-family: Microsoft YaHei;
+    margin-left: 61px;
+}
+
+/*手机登录*/
+#dress{
+    display: inline-block;
+    width: 104px;
+    height: 29px;
+    margin-right: 10px;
+    line-height: 1.5;
+    border: 1px solid #c4c4c4;
+    border-radius: 0;
+    color: #333;
+    font-size: 14px;
+    padding: 4px 35px 4px 10px;
+    //padding-right: 4px\0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(http://s7.mogucdn.com/pic/150410/1blhwf_ieywgzrrgy3tcyjxgazdambqmeyde_29x30.png) 100% no-repeat #fff;
+    //background: none\0;
+    outline: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-transition: border-color ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s;
+    transition: border-color ease-in-out .15s;
+}
+.mod_box .inp1 input{
+    width: 152px;
+}
+.lg_form form #modhid2 a{
+    padding-bottom: 15px;
+    display: block;
+    width: 282px;
+    height: 35px;
+    line-height: 36px;
+    text-align: center;
+    background: url('../image/login/bg.png') no-repeat;
+}
+
+
+
+
+
+.footer{
+    background: url("../image/login/foot.png") repeat;
+    margin-top: 50px;
+}
+.footer .foot_con{
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.footer .foot_con .ftr{
+    float: right;
+}
+.foot_con .ftr h3{
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+.foot_con .ftr a{
+    display: block;
+    background: url("../image/login/f1.png") no-repeat;
+    width: 180px;
+    height: 76px;
+}
+.foot_con ul{
+    float: left;
+    display: inline;
+    margin-bottom: 30px;
+}
+.foot_con ul li{
+    width: 130px;
+    float: left;
+    display: inline;
+}
+.foot_con ul li h3{
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+.foot_con ul li a,.foot_con ul li p{
+    display: block;
+    color: #666;
+    line-height: 24px;
+}
+.foot_con ul li a:hover{
+    text-decoration: underline;
+}
+.foot_con>p{
+    clear: both;
+    padding-top: 0;
+    margin: 0px;
+    text-align: center;
+    color: #999;
+    border-top: 1px dashed #dcdcdc;
+    height: 40px;
+    line-height: 40px;
+}
